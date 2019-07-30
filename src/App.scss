@@ -1,0 +1,94 @@
+$whiteColor: #cccccc;
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.card-img img {
+  display: block;
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 75px;
+  height: 75px;
+  float: left;
+}
+
+input[type=text] {
+  padding: 4px 18px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid $whiteColor;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.main-row {
+  padding: 0px 15px;
+}
+
+.delete-btn-view {
+  float: right;
+  margin-right: 20px;
+}
+
+.main-col {
+  width: calc(50% - 64px);
+  float: left;
+  border: 2px solid $whiteColor;
+  border-radius: 4px;
+  margin: 15px;
+  text-align: left;
+  padding: 15px;
+}
+
+.card-view {
+  padding: 45px;
+  margin: 34px;
+  border: 1px solid gray;
+  border-radius: 6px;
+}
+
+.btn-primary {
+  color: #fff;
+  float: right;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+  margin: 10px;
+}
